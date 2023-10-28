@@ -1,0 +1,84 @@
+<div class="book-container">
+  <h1>Book your room</h1>
+  <p>
+    Fill the form and get ready to enjoy your stay at out Ritz-Sharlaton Hotel!
+  </p>
+  <form
+    [formGroup]="reservationForm"
+    (ngSubmit)="onSubmit()"
+    class="form-container"
+  >
+  <div class="inputs-container">
+    <div class="right">
+      <div class="form-group">
+        <label>Check in Date:</label>
+        <input
+          type="date"
+          formControlName="checkInDate"
+          placeholder="Select date"
+        />
+        <div
+          *ngIf="
+            reservationForm.get('checkInDate')?.invalid &&
+            reservationForm.get('checkInDate')?.touched
+          "
+        >
+          Check in date is required.
+        </div>
+      </div>
+
+      <div class="form-group">
+        <input type="name" placeholder="Name" formControlName="name" />
+        <div
+          *ngIf="
+            reservationForm.get('name')?.invalid &&
+            reservationForm.get('name')?.touched
+          "
+        >
+          Name is required.
+        </div>
+      </div>
+    </div>
+
+    <div class="left">
+        <div class="form-group">
+            <label>Check out Date:</label>
+            <input type="date" formControlName="checkOutDate" />
+            <div
+              *ngIf="
+                reservationForm.get('checkInDate')?.invalid &&
+                reservationForm.get('checkInDate')?.touched
+              "
+            >
+              Check out date is required.
+            </div>
+          </div>
+      <div class="form-group">
+        <input type="number" formControlName="roomNumber" placeholder="Room Number" />
+        <div
+          *ngIf="
+            reservationForm.get('roomNumber')?.invalid &&
+            reservationForm.get('roomNumber')?.touched
+          "
+        >
+          Room number is required.
+        </div>
+      </div>
+    </div>
+</div>
+<div class="bottom-container">
+    <div class="form-group">
+        <input type="email" formControlName="email" placeholder="Email" class="email-input"/>
+        <div
+          *ngIf="
+            reservationForm.get('email')?.invalid &&
+            reservationForm.get('email')?.touched
+          "
+        >
+          Email is required.
+        </div>
+      </div>
+      <button type="submit" [disabled]="reservationForm.invalid" class="submit-btn">Submit</button>
+</div>
+  </form>
+</div>

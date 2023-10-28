@@ -1,0 +1,27 @@
+.bg-opacity {
+    position: relative;
+    background-color: #000;
+    height: 100vh;
+    width: 100%;
+    padding: 20px;
+}
+
+.bg-opacity::before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: 0.5;
+    background: url('../../assets/images/hero.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    height: 600px;
+}

@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{AD403BAF-A3E0-4489-B0B3-ED5415CCC85A}|https">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+    <Files>
+      <File FileName="Program.cs" Line="14" Column="50" />
+      <File FileName="appsettings.json" Line="13" Column="1" />
+      <File FileName="WeatherForecast.cs" />
+      <File FileName="Data/HotelBookingContext.cs" />
+      <File FileName="Controllers/BookingController.cs" Line="14" Column="74" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HotelBookingAPI" expanded="True">
+            <Node name="HotelBookingAPI">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.HotelBookingAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

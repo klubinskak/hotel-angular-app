@@ -1,0 +1,73 @@
+.rooms {
+  width: 100%;
+  height: auto;
+  background-color: #161616;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 50px;
+}
+
+.body-container {
+  position: absolute;
+  bottom: 0;
+  left: 50;
+  width: 70%;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+
+.img {
+  width: 70%;
+  height: auto;
+}
+
+/* Common button styles */
+.btn, .btn-book-room {
+    color: black;
+    font-size: 12px;
+    border: 1px solid #ffe7c3;
+    background-color: #ffe7c3;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Specific styles */
+  .btn {
+    width: 306px;
+    height: 36px;
+    border-radius: 25px;
+  }
+  
+  .btn-book-room {
+    width: 136px;
+    height: 33px;
+    border-radius: 5px
+  }
+  
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.cards-container{
+    width: 100%;
+}

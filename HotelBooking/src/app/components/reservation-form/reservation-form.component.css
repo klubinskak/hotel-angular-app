@@ -1,0 +1,70 @@
+.book-container{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container {
+    color: white;
+    height: 50vh;
+}
+
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    padding-top: 30px;
+    /* Add any additional styling you need */
+  }
+  
+  /* Optional styling for label and input */
+  .form-group label {
+    width: 250px;
+    /* Add label styling */
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    border: none;               
+    background-color: transparent;
+    border-bottom: 1px solid #fff;
+    padding: 5px 0;
+    color: white;
+  }
+  
+
+  ::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+.inputs-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-input{
+    background-color: white;
+    width: 100%;
+}
+
+.submit-btn {
+    border-radius: 25px;
+    color: black;
+    font-size: 12px;
+    border: 1px solid #FFE7C3;
+    background-color: #FFE7C3;
+    cursor: pointer;
+    font-weight: bold;
+    width: 106px;
+    height: 36px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}

@@ -1,0 +1,17 @@
+.aboutus-container{
+    padding: 50px;
+}
+
+.info-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h5{
+    width: 600px;
+}
+
+h1{
+    font-weight: bold;
+}

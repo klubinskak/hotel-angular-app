@@ -1,0 +1,33 @@
+.nav-container {
+    display: flex;
+    background-color: #161616;
+    padding: 30px;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.nav-list {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 400px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,42 @@
+.list-container {
+    color: white;
+    padding-top: 90px;
+    padding-left: 50px;
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+    padding-top: 30px;
+}
+
+.btn {
+    border-radius: 25px;
+    color: black;
+    font-size: 12px;
+    border: 1px solid #FFE7C3;
+    background-color: #FFE7C3;
+    cursor: pointer;
+    font-weight: bold;
+    width: 106px;
+    height: 36px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-container{
+    display: flex;
+    gap: 10px;
+    padding-top: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 50px; 
+    justify-content: center;
+    align-items: center;
+}
