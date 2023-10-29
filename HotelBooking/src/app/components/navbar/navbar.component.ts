@@ -7,5 +7,11 @@ import { Router } from '@angular/router';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
+  isMenuOpen = false;
   constructor(private router: Router) {}
+
+  toggleSidebar() {
+    this.isMenuOpen = !this.isMenuOpen;
+    console.log("Is:", this.isMenuOpen)
+  }
 }

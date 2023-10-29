@@ -42,3 +42,29 @@
     color: white;
 }
 
+
+@media screen and (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        padding: 30px;
+        height: 50vh;
+        text-align: center;
+        gap: 20px;
+
+        .icons-container {
+            width: auto;
+            justify-content: center;
+            gap: 10px;
+            /* Let the icons wrap naturally */
+        }
+
+        .footer-links {
+            gap: 50px;
+        }
+
+        .column {
+            text-align: center;
+            /* Center-align the text in the columns */
+        }
+    }
+}

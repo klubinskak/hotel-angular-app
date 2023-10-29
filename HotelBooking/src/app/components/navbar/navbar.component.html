@@ -5,4 +5,13 @@
         <li><a [routerLink]="['/about']">About</a></li>
         <li><a [routerLink]="['/new']">Book</a></li>
     </ul>
+    <mat-icon (click)="toggleSidebar()" class="hamburger-menu">menu</mat-icon>
+    
+    <div *ngIf="isMenuOpen" class="mobile-nav-container">
+        <ul class="nav-list-mobile">
+            <li><a [routerLink]="['/']">Home</a></li>
+            <li><a [routerLink]="['/about']">About</a></li>
+            <li><a [routerLink]="['/new']">Book</a></li>
+        </ul>
+      </div>
 </nav>

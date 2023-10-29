@@ -9,6 +9,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { AboutComponent } from './pages/about/about.component';
 import { MatIconModule } from '@angular/material/icon';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 
@@ -26,7 +27,8 @@ import { MatIconModule } from '@angular/material/icon';
     ReservationModule,
     HomeModule,
     IconModule,
-    MatIconModule
+    MatIconModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

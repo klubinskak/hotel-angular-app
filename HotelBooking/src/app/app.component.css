@@ -12,5 +12,9 @@
     color: white;
     flex: 1;
     padding-top: 50px;
-    height: 100vh;
+    overflow-y: auto;
+    }
+    
+    .app-footer {
+        bottom: 0;
 }

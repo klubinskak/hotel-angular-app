@@ -26,8 +26,60 @@
     color: white;
 }
 
+.nav-list li a:hover {
+    color: gray;
+}
+
+.nav-list-mobile {
+    display: none;
+}
 .logo {
     font-size: 30px;
     text-decoration: none;
     color: white;
+}
+.hamburger-menu {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-list {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    .nav-list-mobile {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        gap: 50px;
+        align-items: center;
+    }
+
+    .nav-list-mobile li {
+        list-style-type: none;
+    }
+
+    .nav-list-mobile li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .nav-list-mobile li a:hover {
+        color: gray;
+    }
+
+    .mobile-nav-container {
+        background-color: #161616;
+        position: absolute;
+        top: 60px;
+        right: 0px;
+        width: 100%;
+        height: 50vh;
+    }
 }
